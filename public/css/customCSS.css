@@ -1,0 +1,54 @@
+#menuButton1{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    z-index: auto;
+    display: inline-block;
+}
+
+#menuButton2{
+    float: left;
+    display: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: auto;
+}
+
+#menuButton2.toggled{
+    float: left;
+    display: block;
+}
+
+#menuButton1.toggled{
+    display: none;
+}
+
+.menuLink{
+    color: green;
+}
+
+.wordColor{
+    color: green;
+}
+
+.myNav{
+    top: 0;
+    border-width: 0 0 0px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@media(min-width: 768px){
+    .myNav{
+        display: none;
+    }
+    
+}
+
